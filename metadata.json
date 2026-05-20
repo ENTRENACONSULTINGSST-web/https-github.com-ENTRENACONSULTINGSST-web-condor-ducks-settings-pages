@@ -1,0 +1,6 @@
+{
+  "name": "Condor Ducks",
+  "description": "Un divertido juego de disparar a los globos y esquivar cóndores con temporizador de 60 segundos y un fondo interactivo mejorado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
