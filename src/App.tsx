@@ -178,6 +178,29 @@ export default function App() {
         isMuted={isMuted}
       />
 
+      {/* 3. BRANDING WATERMARKS (CORPORATE SST IDENTITY) */}
+      <div className="absolute bottom-4 inset-x-0 px-6 flex justify-between items-end pointer-events-none select-none z-10 font-sans">
+        {/* Marca de agua 1: Empresa de Asesoría y Consultoría SST */}
+        <div className="flex flex-col text-left transition-opacity duration-500 hover:opacity-40">
+          <span className="text-[11px] md:text-sm font-black text-slate-100/30 tracking-[0.15em] leading-tight">
+            ENTRENA CONSULTING SAS
+          </span>
+          <span className="text-[9px] md:text-[10px] font-bold text-slate-400/20 tracking-wider">
+            Empresa de Asesoría y Consultoría SST
+          </span>
+        </div>
+
+        {/* Marca de agua 2: Pausas Activas */}
+        <div className="flex flex-col text-right">
+          <span className="text-[11px] md:text-sm font-extrabold text-amber-500/25 tracking-[0.2em] font-mono leading-none">
+            PAUSAS ACTIVAS
+          </span>
+          <span className="text-[8px] md:text-[9px] font-semibold text-slate-500/20 tracking-wider font-mono">
+            SST BIENESTAR
+          </span>
+        </div>
+      </div>
+
     </main>
   );
 }
